@@ -4,6 +4,10 @@ A combination of the [Tiptap Vue 2 installation guide](https://tiptap.dev/instal
 
 Mentions work in development (`yarn dev`), but not in builds (`yarn build`).
 
+# Fix
+
+Update: The bug is fixed by updating Vite to v5, which uses Rollup v4 for bundling. So apparently the bug was caused by a Rollup bug.
+
 # How to trigger issue
 
 1. ```yarn build```
